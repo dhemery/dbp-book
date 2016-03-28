@@ -1,4 +1,6 @@
 # Formats
 
-- `dbp-tex`: Subtree of the `dbp-tex` repository.
-- `dbp-epub`: Subtree of the `dbp-epub` repository.
+- `paperback`
+    - Subtree of the `dbp-tex` repository.
+- `epub`
+    - Subtree of the `dbp-epub` repository.

@@ -1,18 +1,15 @@
 require 'rake/clean'
 require 'rake/task'
 
-task :epub do
-end
+task :epub
 
-task :mobi do
-end
+task :mobi
 
-task :interior do
-end
+task :interior
 
 task ebooks: [:epub, :mobi]
 
 task all: [:interior, :ebooks]
 
-task dbp:tex
-task dbp:epub
+task format:tex
+task format:epub
