@@ -1,15 +1,10 @@
 require 'rake/clean'
-require 'rake/task'
 
-task :epub
+desc 'Build all ebook formats'
+task :ebooks
 
-task :mobi
+desc 'Build the paperback interior PDF'
+task :paperback
 
-task :interior
-
-task ebooks: [:epub, :mobi]
-
-task all: [:interior, :ebooks]
-
-task format:tex
-task format:epub
+desc 'Build all formats'
+task all: [:ebooks, :paperback]
